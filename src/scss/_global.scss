@@ -1,0 +1,102 @@
+@use "variables" as *;
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: var(--font-stack);
+  font-size: 62.5%;
+  background-color: var(--main-background);
+}
+
+.container {
+  padding: 2.8rem 2.4rem;
+  max-width: 65rem;
+  margin: 0 auto;
+}
+
+// System preferenece scheme
+@media (prefers-color-scheme: dark) {
+  :root {
+    --main-background: var(--very-dark-desaturated-blue1);
+    --toggle-keypad-background: var(--very-dark-desaturated-blue2);
+    --screen-background: var(--very-dark-desaturated-blue3);
+    --key-background-one: var(--desaturated-dark-blue1);
+    --key-shadow-one: var(--desaturated-dark-blue2);
+    --key-background-two: var(--red);
+    --key-shadow-two: var(--dark-red);
+    --key-background-three: var(--light-grayish-orange);
+    --key-shadow-three: var(--grayish-orange);
+    --text-clr-one: var(--white);
+    --text-clr-two: var(--very-dark-grayish-blue);
+    --eql-clr: var(--white);
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --main-background: var(--light-gray);
+    --toggle-keypad-background: var(--grayish-red);
+    --screen-background: var(--very-light-gray);
+    --key-background-one: var(--dark-moderate-cyan);
+    --key-shadow-one: var(--very-dark-cyan);
+    --key-background-two: var(--orange);
+    --key-shadow-two: var(--dark-orange);
+    --key-background-three: var(--light-grayish-yellow);
+    --key-shadow-three: var(--dark-grayish-orange);
+    --text-clr-one: var(--very-dark-grayish-blue);
+    --text-clr-two: var(--very-dark-grayish-yellow);
+    --eql-clr: var(--white);
+  }
+}
+
+[color-scheme="dark"] {
+  --main-background: var(--very-dark-desaturated-blue1);
+  --toggle-keypad-background: var(--very-dark-desaturated-blue2);
+  --screen-background: var(--very-dark-desaturated-blue3);
+  --key-background-one: var(--desaturated-dark-blue1);
+  --key-shadow-one: var(--desaturated-dark-blue2);
+  --key-background-two: var(--red);
+  --key-shadow-two: var(--dark-red);
+  --key-background-three: var(--light-grayish-orange);
+  --key-shadow-three: var(--grayish-orange);
+  --text-clr-one: var(--white);
+  --text-clr-two: var(--very-dark-grayish-blue);
+  --eql-clr: var(--white);
+}
+
+[color-scheme="light"] {
+  --main-background: var(--light-gray);
+  --toggle-keypad-background: var(--grayish-red);
+  --screen-background: var(--very-light-gray);
+  --key-background-one: var(--dark-moderate-cyan);
+  --key-shadow-one: var(--very-dark-cyan);
+  --key-background-two: var(--orange);
+  --key-shadow-two: var(--dark-orange);
+  --key-background-three: var(--light-grayish-yellow);
+  --key-shadow-three: var(--dark-grayish-orange);
+  --text-clr-one: var(--very-dark-grayish-blue);
+  --text-clr-two: var(--very-dark-grayish-yellow);
+  --eql-clr: var(--white);
+}
+
+[color-scheme="yellow"] {
+  --main-background: var(--very-dark-violet-one);
+  --toggle-keypad-background: var(--very-dark-violet-two);
+  --screen-background: var(--very-dark-violet-two);
+  --key-background-one: var(--dark-violet);
+  --key-shadow-one: var(--vivid-magenta);
+  --key-background-two: var(--pure-cyan);
+  --key-shadow-two: var(--soft-cyan);
+  --key-background-three: var(--very-dark-violet);
+  --key-shadow-three: var(--dark-magenta);
+  --text-clr-one: var(--light-yellow);
+  --text-clr-two: var(--light-yellow);
+  --eql-clr: var(--very-dark-blue);
+}
