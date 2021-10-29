@@ -15,11 +15,11 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Frontend Mentor](https://your-solution-url.com)
-- Live Site URL: [Netlify](https://your-live-site-url.com)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/vanillajs-app-webpack-scss-uTsiU6tLP)
+- Live Site URL: [Netlify](https://fem-calculator-app.netlify.app/)
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Frontend Mentor - [@shaj-ed](https://www.frontendmentor.io/profile/shaj-ed)
+- Twitter - [@shajedArrgh](https://twitter.com/ShajedArrgh)
 - Github - [@shaj-ed](github.com/shaj-ed)
